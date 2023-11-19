@@ -20,52 +20,6 @@ El objetivo principal de este proyecto es proporcionar un sistema de gestión de
 
 ## Estructura del Proyecto
 
-proyecto-laravel-crud-roles/
-│
-├── app/
-│ ├── Http/
-│ │ ├── Controllers/
-│ │ │ ├── AdminController.php
-│ │ │ └── UserController.php
-│ │ └── ...
-│ ├── Models/
-│ │ ├── Post.php
-│ │ └── ...
-│ └── ...
-│
-├── database/
-│ ├── migrations/
-│ │ ├── 2023_01_01_create_posts_table.php
-│ │ └── ...
-│ └── ...
-│
-├── public/
-│ ├── css/
-│ │ ├── styles.css
-│ │ └── ...
-│ └── ...
-│
-├── resources/
-│ ├── views/
-│ │ ├── admin/
-│ │ │ ├── create.blade.php
-│ │ │ ├── edit.blade.php
-│ │ │ ├── index.blade.php
-│ │ │ └── show.blade.php
-│ │ ├── user/
-│ │ │ ├── index.blade.php
-│ │ │ └── show.blade.php
-│ │ └── ...
-│ └── ...
-│
-├── routes/
-│ ├── web.php
-│ └── ...
-│
-├── .env.example
-├── composer.json
-├── artisan
-└── ...
 
 bash
 Copy code
